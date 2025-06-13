@@ -66,7 +66,7 @@ const StartScene: React.FC = () => {
             </p>
             <div className="flex justify-center gap-4 mt-8">
               <button
-                className="bg-lime-400 text-lime-700 hover:bg-lime-600 px-4 py-2 rounded-lg text-xl px-12"
+                className="bg-lime-400 text-lime-700 hover:bg-lime-600 py-2 rounded-lg text-xl px-12"
                 onClick={() => {
                   const clickSound = new Audio("/assets/audio/click.mp3");
                   clickSound.play();
@@ -77,7 +77,7 @@ const StartScene: React.FC = () => {
                 Yes
               </button>
               <button
-                className="bg-red-400 text-red-700 hover:bg-red-600 px-4 py-2 rounded-lg text-xl px-12"
+                className="bg-red-400 text-red-700 hover:bg-red-600 py-2 rounded-lg text-xl px-12"
                 onClick={() => {
                   const clickSound = new Audio("/assets/audio/click.mp3");
                   clickSound.play();

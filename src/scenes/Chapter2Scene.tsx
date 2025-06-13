@@ -50,10 +50,9 @@ const Chapter2Scene: React.FC = () => {
   }, [stage]);
   const [y, setY] = useState(0);
   const velocityRef = useRef(0);
-  const [velocity, setVelocity] = useState(0);
   const gravity = 0.9;
   const jumpForce = -12;
-  const [dialogueIndex, setDialogueIndex] = useState(0);
+  const [dialogueIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
   const [obstacles, setObstacles] = useState<Obstacle[]>([]);

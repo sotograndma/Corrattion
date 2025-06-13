@@ -89,7 +89,7 @@ const EndingScene: React.FC = () => {
     "Copyright © Dzaky 2025",
   ];
 
-  const [creditDone, setCreditDone] = useState(false);
+  const [] = useState(false);
 
   // 👇 Efek ketik dan suara
   useEffect(() => {

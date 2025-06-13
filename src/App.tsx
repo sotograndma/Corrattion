@@ -1,4 +1,3 @@
-import React from "react";
 import { GameProvider, useGame } from "./context/GameContext";
 import StartScene from "./scenes/StartScene";
 import PrologueScene from "./scenes/PrologueScene";

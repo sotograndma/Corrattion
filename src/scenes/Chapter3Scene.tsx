@@ -80,7 +80,7 @@ const dialoguesPost = [
 const Chapter3Scene: React.FC = () => {
   const { setScene, setPartLost } = useGame();
   const [stage, setStage] = useState<"pre" | "game" | "post">("pre");
-  const [dialogueIndex, setDialogueIndex] = useState(0);
+  const [dialogueIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
   const [currentQuestion, setCurrentQuestion] = useState(0);

@@ -82,7 +82,7 @@ const Chapter1Scene: React.FC = () => {
   const [displayedText, setDisplayedText] = useState("");
   const [isTyping, setIsTyping] = useState(true);
   const [input, setInput] = useState("");
-  const [timeLeft, setTimeLeft] = useState(40);
+  const [, setTimeLeft] = useState(40);
   const [started, setStarted] = useState(false);
   const [finished, setFinished] = useState(false);
   const [gameDialogueIndex, setGameDialogueIndex] = useState(0);
